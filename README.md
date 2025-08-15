@@ -1,6 +1,19 @@
-# Student Platform API Backend
+🎓 Student Platform Backend
+A role-based educational backend system powered by Node.js, Express, MongoDB, and Google Gemini AI.
+Supports students, teachers, parents, and admin roles — with token-based authentication and AI-powered lesson planning.
 
 Monolithic REST API using **Node.js + Express + MongoDB (Mongoose)** with **JWT auth (access + refresh)**, **RBAC**, **Swagger (OpenAPI 3.0)**, and a **Google Gemini** powered lesson plan generator.
+
+🚀 Features
+🔐 Authentication with JWT & refresh tokens
+👥 Role-based access control (admin, teacher, student, parent)
+📚 Course & Assignment creation and retrieval
+🤖 AI Lesson Plan Generator (Google Gemini)
+🧠 Clean architecture with Controllers, Routes, Services, Middleware
+📦 MongoDB integration using Mongoose
+🧪 Tested via swagger
+
+
 
 ## Tech
 - Node.js, Express.js
@@ -11,8 +24,7 @@ Monolithic REST API using **Node.js + Express + MongoDB (Mongoose)** with **JWT 
 - Google Generative AI SDK (`@google/generative-ai`) for lesson plans
 
 
-## Folder Structure
-See the repo tree below (created for you):
+🏗 Folder Structure
 
 ```
 student-platform-back-end/
@@ -55,3 +67,4 @@ student-platform-back-end/
 - Inputs are validated with `express-validator` in the routes.
 
 ## Demo Video
+https://www.awesomescreenshot.com/video/43170804?key=e6d5010947a1986a5ae20fc201c1daca
