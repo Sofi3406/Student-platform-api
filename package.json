@@ -1,0 +1,37 @@
+{
+  "name": "student-platform-back-end",
+  "version": "1.0.0",
+  "description": "Student Platform API Backend (Node.js, Express, MongoDB, JWT, Swagger, Gemini)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "export:swagger": "node scripts/exportSwagger.js",
+    "lint": "echo \"Add ESLint if needed\""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "jwt",
+    "swagger",
+    "gemini"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "swagger-ui-express": "^5.0.1",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
